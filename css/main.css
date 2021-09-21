@@ -1,0 +1,313 @@
+@font-face {
+    font-family: "Photograph";
+    src: url('../Fonts/PhotographSignature.ttf');
+}
+#mainCon{
+    width: 100vw;
+    min-height: 100vh;
+}
+#demo{
+    width: 100vw;
+    min-height: 100vh;
+}
+#demo img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+.navbar-brand img{
+    width: 120px;
+}
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.2em;
+    color: white !important;
+    transition: 0.5s;
+}
+.nav-link.active, .nav-link:hover{
+    color: #FFD369 !important;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.footer .regBtn{
+    color: #FFD369;
+    border: 1px solid #FFD369;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.footer .regBtn:hover{
+    color: #222831;
+    background-color: #FFD369;
+}
+.footer .copyrightText{
+    float: right;
+    color: #7c8285;
+}
+/* .footer .copyrightText:before{
+  content:" ";
+  width: 800px;
+  height: 1px;
+  margin: 0 10px;
+  vertical-align: super;
+  background-color:#7c8285;
+  display:inline-block;
+} */
+.footer .spacingText{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.sideIcons{
+    position: fixed;
+    right:50px;
+    top:40%;
+    z-index: 5;
+}
+.socialIcons{
+    width: 40px;
+    height: 40px;
+    /* padding: 20px; */
+    border-radius: 100px;
+    text-align: center;
+    background-color: #eaeaea;
+    color: #292f38;
+    transition: 0.8s;
+    z-index: 10;
+}
+.socialIcons:hover{
+    background-color: #ffd369;
+}
+.mainConAbout{
+    background: url('../Images/AboutUs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.mainConContact{
+    background: url('../Images/ContactUs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.mainConFragrance{
+    background: url('../Images/Fragance.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.textConAbout{
+    padding-top: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.photoSign{
+    font-family: 'Photograph';
+    color: #ffd369;
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+.textConAbout p{
+    color: #c1c2c4;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.symbolImg{
+    position: absolute;
+    top:150px;
+    right:50px;
+    width: 80px;
+}
+.centerCol{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    vertical-align: middle;
+}
+.centerColLeft{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    vertical-align: middle;
+}
+.fullHeight{
+    min-height: 100vh;
+}
+.fullHeight2{
+    height: 100vh;
+}
+.roundBoxContact{
+    /* padding-top: 240px;
+    padding-left: 100px; */
+    width: 100%;
+}
+.contactForm input[type="text"],.contactForm input[type="email"],.contactForm input[type="password"],.contactForm select,.contactForm textarea{
+    border: none;
+    border-bottom: 2px solid #46505c;
+    border-radius: 0px;
+    background-color: transparent;
+    /* color: #7f8a92; */
+    color:#b3c1ca;
+}
+.contactForm .formBtn{
+    background-color: #ffd369;
+    color: white;
+}
+.contactForm input:focus,.contactForm textarea:focus{
+    box-shadow: none;
+    outline: none;
+}
+.contactForm label{
+    color: #b3c1ca;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.contactUs .topic{
+    color: #ffd369;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+}
+.contactUs .finalCol{
+    position: relative;
+}
+.contactUs .btnSubmit{
+    position: absolute;
+    right:0px;
+    background-color: #ffd369;
+    color: #222831;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    bottom: -8px;
+    font-size: 1.2em;
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.5);
+}
+.textRight{
+    position: absolute;
+    right: 0px;
+    font-size: 1.5em;
+}
+.listCon{
+    background-color: #393e46;
+    padding: 40px 30px 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.listButtons{
+    color: #eaeaea;
+    border-bottom: 1px solid #ffd369;
+    width: 200px;
+    text-align: left;
+    padding: 15px 15px 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.listButtons:focus{
+    outline: none;
+    box-shadow: none;
+}
+.listButtons:hover, .listButtons.active{
+    color: #ffd369;
+    font-weight: bold;
+}
+.itemDisplayCol{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.imgBox{
+    border: 1px solid #ffd369;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.imgBox:hover{
+    background-color: #ffd369;
+}
+.imgBox:hover.imgBox p{
+    color:#222831;
+    font-weight: bold;
+}
+.imgBox img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.imgBox p{
+    color: #eaeaea;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+@media (max-width:769px){
+    .roundBoxContact{
+        /* padding-top: 380px; */
+        padding-right: 150px;
+        padding-left: 20px;
+    }
+    
+}
+@media (max-width:576px){
+    .navbar-brand img{
+        width: 80px;
+    }
+    .navbar-collapse{
+        background-color: #7c8285;
+    }
+    .footer .copyrightText{
+        float: right;
+        color: #7c8285;
+        margin-top: 20px;
+        font-size: 0.7em;
+    }
+    .textConAbout p{
+        color: #c1c2c4;
+        font-size: 1em;
+    }
+    .sideIcons{
+        right:30px;
+    }
+    .symbolImg{
+        display: none;
+    }
+    .roundBoxContact{
+        /* padding-top: 200px; */
+        padding-left: 0px;
+        padding-right: 100px;
+    }
+    .centerColLeft{
+        width: 100%;
+        margin-top: 120px;
+    }
+    .listButtons{
+        padding: 10px 10px 5px;
+        margin-bottom: 10px;
+    }
+    .imgBox{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .fullHeight2{
+        height: unset;
+    }
+}
